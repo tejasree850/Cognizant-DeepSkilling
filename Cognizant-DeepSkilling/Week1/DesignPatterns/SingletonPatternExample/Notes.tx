@@ -1,0 +1,20 @@
+Exercise 1: Singleton Pattern
+
+Definition:
+Singleton Pattern is a Creational Design Pattern that ensures only one instance of a class is created and provides a global access point to it.
+
+Components:
+1. Private static instance variable
+2. Private constructor
+3. Public static getInstance() method
+
+Advantages:
+- Saves memory
+- Controlled access
+- Used in logging, configuration management, caching
+
+Output:
+Logger Created
+LOG: Application Started
+LOG: User Logged In
+Only One Logger Object Exists
